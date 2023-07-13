@@ -19,6 +19,7 @@ public class AdministrativeStaff extends Person {
     @Getter @Setter
     private short hours;
 //Mensaje de prueba
+    //Hice otro comentario
 
     public AdministrativeStaff(long dui, String email, Date dateAdmision, String position, String salary, short hours) {
         this.dui = dui;

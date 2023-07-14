@@ -5,25 +5,25 @@ import lombok.Setter;
 
 public abstract class Person {
     @Getter @Setter
-    private String nombre;
+    private String name;
     @Getter @Setter
-    private String direccion;
+    private String adress;
     @Getter @Setter
     private String cel;
     @Getter @Setter
-    private String sexo;
+    private String sex;
     @Getter @Setter
-    private String edad;
+    private int age;
 
     public Person(){
 
     }
 
-    public Person(String nombre, String direccion, String cel, String sexo, String edad) {
-        this.nombre = nombre;
-        this.direccion = direccion;
+    public Person(String name, String adress, String cel, String sex) {
+        this.name = name;
+        this.adress = adress;
         this.cel = cel;
-        this.sexo = sexo;
-        this.edad = edad;
+        this.sex = sex;
+
     }
 }

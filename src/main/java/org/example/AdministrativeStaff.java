@@ -7,27 +7,34 @@ import java.util.Date;
 
 public class AdministrativeStaff extends Person {
     @Getter @Setter
-    private long dui;
+    private int idEmpleado;
     @Getter @Setter
     private String email;
     @Getter @Setter
-    private Date dateAdmision;
-    @Getter @Setter
     private String position;
     @Getter @Setter
-    private String salary;
+    private double salary;
     @Getter @Setter
     private short hours;
 //Mensaje de prueba
     //Hice otro comentario
 
-    public AdministrativeStaff(long dui, String email, Date dateAdmision, String position, String salary, short hours) {
-        this.dui = dui;
+
+    public AdministrativeStaff( String email, String position, double salary, short hours, int id) {
+
         this.email = email;
-        this.dateAdmision = dateAdmision;
         this.position = position;
         this.salary = salary;
         this.hours = hours;
+        this.idEmpleado = id;
+    }
+    public AdministrativeStaff(String name, String adress, String cel, String sex, String email, String position, double salary, short hours, int id) {
+        super( name,  adress,  cel,  sex);
+        this.email = email;
+        this.position = position;
+        this.salary = salary;
+        this.hours = hours;
+        this.idEmpleado = id;
     }
 
     public AdministrativeStaff() {

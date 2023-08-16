@@ -1,0 +1,133 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > AdministrativeStaff</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.entity</a>
+</div>
+
+<h1>Coverage Summary for Class: AdministrativeStaff (org.example.entity)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">AdministrativeStaff</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (8/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.entity;
+&nbsp;
+&nbsp;import lombok.Getter;
+&nbsp;import lombok.Setter;
+&nbsp;
+&nbsp;
+&nbsp;public class AdministrativeStaff extends Person {
+<b class="fc">&nbsp;  @Getter @Setter private int idEmpleado;</b>
+<b class="fc">&nbsp;  @Getter @Setter private String email;</b>
+<b class="fc">&nbsp;  @Getter @Setter private String position;</b>
+<b class="fc">&nbsp;  @Getter @Setter private double hourlyRate;</b>
+<b class="fc">&nbsp;  @Getter @Setter private short hoursWorked;</b>
+<b class="fc">&nbsp;  @Getter @Setter private double salaryTotal;</b>
+&nbsp;
+&nbsp;  public AdministrativeStaff(String name, String adress, int cel, String sex, String email, String position, double salary, short hours, int id, double salaryTotal) {
+&nbsp;
+<b class="fc">&nbsp;    super(name, adress, cel, sex);</b>
+<b class="fc">&nbsp;    this.email = email;</b>
+<b class="fc">&nbsp;    this.position = position;</b>
+<b class="fc">&nbsp;    this.hourlyRate = salary;</b>
+<b class="fc">&nbsp;    this.hoursWorked = hours;</b>
+<b class="fc">&nbsp;    this.idEmpleado = id;</b>
+<b class="fc">&nbsp;    this.salaryTotal = salaryTotal;</b>
+&nbsp;  }
+&nbsp;
+<b class="fc">&nbsp;  public AdministrativeStaff() {</b>
+&nbsp;  }
+&nbsp;
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-15 15:20</div>
+</div>
+</body>
+</html>

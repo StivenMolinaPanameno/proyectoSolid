@@ -1,7 +1,7 @@
 package org.example.logica.search;
 
-import org.example.AdministrativeStaff;
+import org.example.entity.AdministrativeStaff;
 
 public interface IShowSearch {
-    void showSearch(AdministrativeStaff employee);
+  void showSearch(AdministrativeStaff employee);
 }

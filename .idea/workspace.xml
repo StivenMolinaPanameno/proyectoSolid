@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcca774a-3793-4e5f-bb02-494f3ef3deb3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\angel\Escritorio\Entregables\Entregables\ProjectSOLID\ProjectSOLID\htmlReport" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TjUDOLcYztJwbEDcA5OKsDlC1C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/angel/Escritorio/ProjectSOLID"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.java in ProjectSOLID">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="ProjectSOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IValidateNumberPhoneTest.testValidateNumberPhone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ValidateDataTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ValidateDataTest" />
+      <option name="MAIN_CLASS_NAME" value="ValidateDataTest.IValidateNumberPhoneTest" />
+      <option name="METHOD_NAME" value="testValidateNumberPhone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Show" />
+      <option name="MAIN_CLASS_NAME" value="Show.ShowEmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowEmployeeTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Show" />
+      <option name="MAIN_CLASS_NAME" value="Show.ShowEmployeeTest" />
+      <option name="METHOD_NAME" value="testExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in ProjectSOLID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSOLID" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in ProjectSOLID" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ShowEmployeeTest" />
+        <item itemvalue="JUnit.ShowEmployeeTest.testExecute" />
+        <item itemvalue="JUnit.IValidateNumberPhoneTest.testValidateNumberPhone" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcca774a-3793-4e5f-bb02-494f3ef3deb3" name="Changes" comment="" />
+      <created>1691555890721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691555890721</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/logica/principalmenu/EmpleadoActionHandler.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/logica/delete/Delete.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/PrincipalMenuTest.java</url>
+          <line>29</line>
+          <properties class="PrincipalMenuTest" method="showMenuOptionsTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/PrincipalMenuTest.java</url>
+          <line>54</line>
+          <properties class="PrincipalMenuTest" method="testPrincipalMenuDoWhileLoop">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AddedEmployeesTest.java</url>
+          <line>17</line>
+          <properties class="AddedEmployeesTest" method="testEmpleadosAgregados">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ValidateDataTest/IValidateNumberPhoneTest.java</url>
+          <line>16</line>
+          <properties class="ValidateDataTest.IValidateNumberPhoneTest" method="testValidateNumberPhone">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="option" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjectSOLID$UpdateNameTest.ic" NAME="UpdateNameTest Coverage Results" MODIFIED="1692034231298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>update.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$IValidateNumberPhoneTest_testValidateNumberPhoneTest.ic" NAME="IValidateNumberPhoneTest.testValidateNumberPhoneTest Coverage Results" MODIFIED="1692086202733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ValidateDataTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$PrincipalMenuTest_showMenuOptionsTest.ic" NAME="PrincipalMenuTest.showMenuOptionsTest Coverage Results" MODIFIED="1692082632686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectSOLID$UpdateSexTest.ic" NAME="UpdateSexTest Coverage Results" MODIFIED="1692034315929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>update.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$InjectionDependencyTest.ic" NAME="InjectionDependencyTest Coverage Results" MODIFIED="1692074230221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectSOLID$IValidHoursWorkedTest.ic" NAME="IValidHoursWorkedTest Coverage Results" MODIFIED="1692111283378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ValidateDataTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$IValidateHourlyRateTest_testValidHourlyRateWithInvalidInput.ic" NAME="IValidateHourlyRateTest.testValidHourlyRateWithInvalidInput Coverage Results" MODIFIED="1692110443176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ValidateDataTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$AddedEmployeesTest_testEmpleadosAgregados.ic" NAME="AddedEmployeesTest.testEmpleadosAgregados Coverage Results" MODIFIED="1692085451797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectSOLID$UpdateEmailTest.ic" NAME="UpdateEmailTest Coverage Results" MODIFIED="1692053708139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>update.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$ShowEmployeeTest.ic" NAME="ShowEmployeeTest Coverage Results" MODIFIED="1692034170573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Show.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectSOLID$java_in_ProjectSOLID.ic" NAME="java in ProjectSOLID Coverage Results" MODIFIED="1692134368114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

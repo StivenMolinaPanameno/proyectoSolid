@@ -1,0 +1,140 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > MenuUpdate</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.logica.update</a>
+</div>
+
+<h1>Coverage Summary for Class: MenuUpdate (org.example.logica.update)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">MenuUpdate</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.logica.update;
+&nbsp;
+&nbsp;import javax.swing.*;
+&nbsp;import org.example.entity.AdministrativeStaff;
+&nbsp;import org.example.validatedata.IvalidOption;
+&nbsp;
+<b class="fc">&nbsp;public class MenuUpdate implements IvalidOption {</b>
+&nbsp;  public int menuOption(AdministrativeStaff employee) {
+<b class="fc">&nbsp;    int option = 0;</b>
+<b class="fc">&nbsp;    String data = input(employee);</b>
+<b class="fc">&nbsp;    option = validOption(data);</b>
+<b class="fc">&nbsp;    return option;</b>
+&nbsp;  }
+&nbsp;
+&nbsp;  public String input(AdministrativeStaff employee){
+&nbsp;
+<b class="fc">&nbsp;    String data =</b>
+<b class="fc">&nbsp;            JOptionPane.showInputDialog(</b>
+&nbsp;                    null,
+&nbsp;                    &quot;What is the element of the employee you want to modify&quot;
+&nbsp;                            + &quot;\n1. Name: &quot;
+<b class="fc">&nbsp;                            + employee.getName()</b>
+&nbsp;                            + &quot;\n2. Email: &quot;
+<b class="fc">&nbsp;                            + employee.getEmail()</b>
+&nbsp;                            + &quot;\n3. Sex: &quot;
+<b class="fc">&nbsp;                            + employee.getSex()</b>
+&nbsp;                            + &quot;\n4. Rol: &quot;
+<b class="fc">&nbsp;                            + employee.getPosition()</b>
+&nbsp;                            + &quot;\n5. Address: &quot;
+<b class="fc">&nbsp;                            + employee.getAdress()</b>
+&nbsp;                            + &quot;\n6. Hourly Rate: &quot;
+<b class="fc">&nbsp;                            + employee.getHourlyRate()</b>
+&nbsp;                            + &quot;\n7. Don&#39;t modify more/ &quot;
+&nbsp;                            + &quot;If you want to exit, press 7&quot;);
+<b class="fc">&nbsp;    return data;</b>
+&nbsp;  }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-15 15:20</div>
+</div>
+</body>
+</html>

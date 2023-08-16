@@ -1,14 +1,14 @@
 package org.example.logica.update;
 
-import org.example.AdministrativeStaff;
-
 import javax.swing.*;
+import org.example.entity.AdministrativeStaff;
 
-public class UpdateAdress implements IUpdateAdress{
-    @Override
-    public void updateAddress(AdministrativeStaff employee){
-        String data = JOptionPane.showInputDialog(null, "What is the new Adress");
-        employee.setAdress(data);
+public class UpdateAdress implements IUpdateExecute {
 
-    }
+
+  @Override
+  public void updateExecute(AdministrativeStaff employee) {
+    String data = JOptionPane.showInputDialog(null, "What is the new Address");
+    employee.setAdress(data);
+  }
 }

@@ -1,15 +1,13 @@
 package org.example.logica.update;
 
-import org.example.AdministrativeStaff;
-
 import javax.swing.*;
+import org.example.entity.AdministrativeStaff;
 
-public class UpdateRol implements IUpdateRol{
+public class UpdateRol implements IUpdateExecute {
 
-    @Override
-    public void updateRol(AdministrativeStaff employee) {
-        String data = JOptionPane.showInputDialog(null, "What is the new Rol in the company");
-        employee.setPosition(data);
-
-    }
+  @Override
+  public void updateExecute(AdministrativeStaff employee) {
+    String data = JOptionPane.showInputDialog(null, "What is the new Rol in the company");
+    employee.setPosition(data);
+  }
 }

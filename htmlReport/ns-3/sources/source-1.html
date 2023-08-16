@@ -1,0 +1,136 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > CreatePDF</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.logica.createpdf</a>
+</div>
+
+<h1>Coverage Summary for Class: CreatePDF (org.example.logica.createpdf)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CreatePDF</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.logica.createpdf;
+&nbsp;
+&nbsp;import com.itextpdf.text.*;
+&nbsp;import com.itextpdf.text.pdf.PdfWriter;
+&nbsp;import java.io.File;
+&nbsp;import java.io.FileNotFoundException;
+&nbsp;import java.io.FileOutputStream;
+&nbsp;import java.util.List;
+&nbsp;import javax.swing.*;
+&nbsp;import org.example.entity.AdministrativeStaff;
+&nbsp;import org.example.logica.principalmenu.IEmpleadoAction;
+&nbsp;
+<b class="fc">&nbsp;public class CreatePDF implements IEmpleadoAction {</b>
+&nbsp;
+<b class="fc">&nbsp;  ICreateTable createTable = new CreateTableImplement();</b>
+&nbsp;
+&nbsp;  @Override
+&nbsp;  public void execute(List&lt;AdministrativeStaff&gt; employees)
+&nbsp;          throws FileNotFoundException, DocumentException {
+<b class="fc">&nbsp;    Document document = new Document(PageSize.A4.rotate());</b>
+<b class="fc">&nbsp;    String desktop = System.getProperty(&quot;user.home&quot;) + File.separator + &quot;Escritorio&quot;;</b>
+<b class="fc">&nbsp;    PdfWriter.getInstance(document, new FileOutputStream(desktop + File.separator + &quot;Employees.pdf&quot;));</b>
+<b class="fc">&nbsp;    document.open();</b>
+<b class="fc">&nbsp;    Font boldFont = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD);</b>
+<b class="fc">&nbsp;    Paragraph centerParagraph = new Paragraph(&quot;Tabla de empleados&quot;,boldFont);</b>
+<b class="fc">&nbsp;    centerParagraph.setAlignment(Paragraph.ALIGN_CENTER);</b>
+<b class="fc">&nbsp;    document.add(centerParagraph);</b>
+<b class="fc">&nbsp;    document.add(Chunk.NEWLINE);</b>
+<b class="fc">&nbsp;    document.add(createTable.createTable(employees));</b>
+<b class="fc">&nbsp;    document.close();</b>
+<b class="fc">&nbsp;    JOptionPane.showMessageDialog(null, &quot;PDF created, check your desktop&quot;);</b>
+&nbsp;  }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-08-15 15:20</div>
+</div>
+</body>
+</html>
